@@ -3,6 +3,8 @@ var colors = require('colors');
 
 var handlers = require('./handlers');
 
+console.log("Odwiedź: http://localhost:9000/".magenta);
+
 function start() {
     function onRequest(request, response) {
         console.log("Odebrano zapytanie.".green);
